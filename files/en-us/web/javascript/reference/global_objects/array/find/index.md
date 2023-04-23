@@ -98,7 +98,7 @@ console.log(result); // { name: 'cherries', quantity: 5 }
 The following example finds an element in the array that is a prime number (or returns {{jsxref("undefined")}} if there is no prime number):
 
 ```js
-function isPrime(element, index, array) {
+function isPrime(element) {
   let start = 2;
   while (start <= Math.sqrt(element)) {
     if (element % start++ < 1) {
